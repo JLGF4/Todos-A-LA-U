@@ -5,9 +5,9 @@
 }
 
 body {
-  flex-wrap: wrap;
   flex-direction: column;
   min-height: 100vh;
+  display: flex;
   background-image: url("/img/fondo-bitcoin.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -27,7 +27,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
-  color: #EBD758;
+  color: #ebd758;
 }
 
 td {
@@ -36,7 +36,7 @@ td {
 }
 
 td:hover {
-  background-color: #3498DB;
+  background-color: #3498db;
   cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ ul {
 
 footer {
   margin-top: auto;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background: #1b3039;
   height: auto;
